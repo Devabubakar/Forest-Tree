@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Park</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a1bde32b9d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!--Main landing section-->
+    
+        <div id="landing-bg"></div>
+         <section id="landing-content">
+
+            <h1>Tree House</h1>
+            <p>Need to get away from City's pollution , Tree Houseoffers  exclussive entertainment Facilities for you and your Loved . Book a room / camp with us and let us explore the magic of mothernature . The  park is conducive for team building drills as well as a place of leisure for cooperates and people who are looking for a quiet home away from the noisy City</p>
+            <button onclick="enterPage();">Enter</button>
+
+         </section>
+
+<!--Full site after clicking-->
+         <div id="dimmed-bg"></div>
+         <section id="fullsite">
+
+           <div id="hamburger-menu"></div>
+           <div id="mobi">
+            <i class="fa fa-2x fa-home" aria-hidden="true"></i>
+            <input type="text" name="search" placeholder="Search.." id="#animatedSearch">
+            <i class="fa fa-2x fa-bars" aria-hidden="true" id="hamburger-menu" onclick="hamburgerMenu();"></i>
+           </div>
+            <div id="mylinks">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Services</a>
+                <a href="">Book</a>
+                <a href="">Contact</a>
+            </div>
+      <section id="hero-content">
+
+          <div id="camp"></div>
+
+          <div id="camp-content">
+              <h3>Book your next vacation with us!</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur voluptate repudiandae at accusantium distinctio, quasi magni vitae, vel, maxime sunt quam rerum veniam ratione illo autem. Voluptatibus recusandae quam numquam!</p>
+             <a href=""> <button  id="cta">Get Started </button></a>
+          </div>
+      </section>
+       
+      <aside id="sidebar"><!--170%-->
+
+          <div id="empty-section" onmouseenter="leaveSide();"></div><!--96%-->
+
+          <section id="visible-section" onmouseover="enterSide();">
+              <span>0769230118</span>
+              <h4>Register</h4>
+          </section><!--4%-->
+
+          <section id="form-section" onmouseleave="leaveSide();">
+            <h5>Register Your Account</h5>
+              <form action="" method="post">
+              <input type="name" placeholder="Username" id="input-a">
+              <input type="password" placeholder="password" id="input-a">
+              <input type="password" placeholder="Confirm Password" id="input-a">
+              <input type="submit" id="input-b">
+            </form>
+           <p>Already have a Account <a href="">Login</a></p>
+          </section><!--70%-->
+      </aside>
+
+         </section>
+
+
+        
+
+    
+  
+  <script src="script.js"></script>  
+</body>
+</html>
