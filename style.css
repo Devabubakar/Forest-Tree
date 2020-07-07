@@ -168,6 +168,7 @@ h2{
     border-radius: 14px;
     border: none;
     margin-top: 2rem;
+    background-repeat: no-repeat;
 }
 #camp-content{
     height: 70vh;
