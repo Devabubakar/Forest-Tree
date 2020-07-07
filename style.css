@@ -246,16 +246,14 @@ h4{
     margin: 0 50px;
     padding: .4em 5.4em;
     font-weight: 700;
+    color: white;
 }
 #input-b:hover{
     opacity: .8;
     transform: scale(1.1);
 }
 
-::placeholder :last-child{
-    color:white ;
-    font-weight: 900;
-}
+
 
 h5{
     font-size: 30px;
