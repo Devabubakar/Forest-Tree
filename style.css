@@ -234,6 +234,7 @@ h4{
     margin: 50px ;
     padding: 6px 19px;
     outline: none;
+    color: white;
 }
 
 #input-b{
@@ -246,7 +247,7 @@ h4{
     margin: 0 50px;
     padding: .4em 5.4em;
     font-weight: 700;
-    color: white;
+   
 }
 #input-b:hover{
     opacity: .8;
